@@ -23,4 +23,5 @@ $ st-flash write nuttx.bin 0x8000000
 
 # using NSH
 $ screen /dev/ttyACM0 115200 8N1
+
 ![nutt nsh](https://user-images.githubusercontent.com/7278867/173167551-ce07b037-ef3c-4b6b-9723-f29d6e3fdc61.png)
