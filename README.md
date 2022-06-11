@@ -15,7 +15,9 @@ $ st-info --probe
 
 # build
 $ cd nuttx_stm32h743/nuttx
+
 $ ./tools/configure.sh -l nucleo-h743zi2:nsh
+
 $ make -j8
 
 # stlink write flash
