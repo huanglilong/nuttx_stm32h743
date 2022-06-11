@@ -10,15 +10,8 @@ git clone https://github.com/huanglilong/nuttx_stm32h743
 3. sudo apt install screen
 
 # check stlink
-# st-info --probe  
-Failed to parse flash type or unrecognized flash type
-Found 1 stlink programmers
-  version:    V3J5
-  serial:     001700264D46501120383832
-  flash:      2097152 (pagesize: 131072)
-  sram:       131072
-  chipid:     0x450
-  dev-type:   STM32H74x_H75x
+$ st-info --probe  
+![st-info](https://user-images.githubusercontent.com/7278867/173167624-0a733c40-f3f0-47e3-a019-b4ee4bf0fa6f.png)
 
 # build
 $ cd nuttx_stm32h743/nuttx
